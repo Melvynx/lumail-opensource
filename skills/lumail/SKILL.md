@@ -1,5 +1,7 @@
 ---
 name: lumail
+version: "0.1.0"
+tags: ["email", "marketing", "newsletter", "mcp", "api", "cli"]
 description: >-
   Manage Lumail email marketing platform via CLI and TypeScript SDK.
 
