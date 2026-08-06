@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "lumail": {
+      "url": "https://lumail.io/mcp",
+      "oauth_resource": "https://lumail.io/mcp",
+      "http_headers": {
+        "x-lumail-mcp-client": "codex"
+      }
+    }
+  }
+}

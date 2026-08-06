@@ -1,0 +1,20 @@
+{
+  "name": "lumail",
+  "interface": {
+    "displayName": "Lumail"
+  },
+  "plugins": [
+    {
+      "name": "lumail",
+      "source": {
+        "source": "local",
+        "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

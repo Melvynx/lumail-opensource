@@ -1,0 +1,37 @@
+{
+  "name": "lumail",
+  "version": "0.4.0",
+  "description": "Lumail plugin for Claude Code. Manage subscribers, draft campaigns, build workflow sequences, and read email analytics from your terminal.",
+  "author": {
+    "name": "Lumail",
+    "email": "hello@lumail.io",
+    "url": "https://lumail.io"
+  },
+  "homepage": "https://lumail.io/claude-code",
+  "repository": "https://github.com/Melvynx/lumail-opensource.git",
+  "license": "MIT",
+  "keywords": [
+    "lumail",
+    "email",
+    "email-marketing",
+    "newsletter",
+    "subscribers",
+    "campaigns",
+    "workflows",
+    "analytics",
+    "claude-code",
+    "mcp",
+    "oauth"
+  ],
+  "mcpServers": {
+    "lumail": {
+      "type": "http",
+      "url": "https://lumail.io/mcp",
+      "oauth_resource": "https://lumail.io/mcp",
+      "headers": {
+        "x-lumail-mcp-client": "claude_code"
+      }
+    }
+  },
+  "skills": "./skills/"
+}

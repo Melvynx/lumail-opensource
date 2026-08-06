@@ -1,0 +1,38 @@
+{
+  "name": "lumail",
+  "owner": {
+    "name": "Lumail",
+    "email": "hello@lumail.io",
+    "url": "https://lumail.io"
+  },
+  "metadata": {
+    "description": "Lumail plugins for Claude Code and Codex"
+  },
+  "plugins": [
+    {
+      "name": "lumail",
+      "source": "./claude",
+      "description": "Run email marketing from Claude Code: subscribers, campaigns, tags, workflows, and analytics over an OAuth MCP connection.",
+      "category": "productivity",
+      "homepage": "https://lumail.io/claude-code",
+      "author": {
+        "name": "Lumail",
+        "email": "hello@lumail.io",
+        "url": "https://lumail.io"
+      },
+      "license": "MIT",
+      "keywords": [
+        "lumail",
+        "email",
+        "email-marketing",
+        "newsletter",
+        "subscribers",
+        "campaigns",
+        "workflows",
+        "analytics",
+        "mcp",
+        "oauth"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "lumail",
+  "version": "0.4.0",
+  "description": "Lumail plugin for Codex. Manage subscribers, draft campaigns, build workflow sequences, and read email analytics from the Codex CLI and app.",
+  "author": {
+    "name": "Lumail",
+    "email": "hello@lumail.io",
+    "url": "https://lumail.io"
+  },
+  "homepage": "https://lumail.io/codex",
+  "repository": "https://github.com/Melvynx/lumail-opensource.git",
+  "license": "MIT",
+  "keywords": [
+    "lumail",
+    "email",
+    "email-marketing",
+    "newsletter",
+    "subscribers",
+    "campaigns",
+    "workflows",
+    "analytics",
+    "codex",
+    "mcp",
+    "oauth"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Lumail",
+    "shortDescription": "Run email marketing from Codex",
+    "longDescription": "Connects Codex to a Lumail organization over an OAuth MCP connection. Read subscribers, tags, campaigns, workflows and analytics, then draft campaigns and build workflow sequences without leaving your session. Sending, deleting and unsubscribing stay in the Lumail app.",
+    "developerName": "Lumail",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://lumail.io/codex",
+    "defaultPrompt": [
+      "How did my last newsletter perform?",
+      "Draft a campaign for the product launch",
+      "Add this person to my newsletter and tag them",
+      "Build a three-email welcome sequence as a draft"
+    ],
+    "brandColor": "#A23C79",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg"
+  }
+}
