@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Melvynx/lumail",
+  "title": "Lumail",
+  "description": "Official Lumail email marketing MCP for campaigns, subscribers, and workflows.",
+  "websiteUrl": "https://lumail.io",
+  "repository": {
+    "url": "https://github.com/Melvynx/lumail-opensource",
+    "source": "github"
+  },
+  "version": "0.4.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lumail.io/mcp"
+    }
+  ]
+}
