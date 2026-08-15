@@ -22,7 +22,7 @@ and paste this prompt there:
 If the user's Codex build supports plugins:
 
 ```bash
-codex plugin marketplace add https://github.com/Melvynx/lumail-opensource.git
+codex plugin marketplace add https://github.com/Melvynx/lumail-skills.git
 codex plugin install lumail
 ```
 

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Marketing"
+  short_description: "Build marketing strategy, offers, funnels, and launches"
+  default_prompt: "Use $marketing to design a launch plan for my product."
+  icon_small: "./assets/codex-icon.svg"
+  icon_large: "./assets/codex-icon.svg"
+  brand_color: "#2BD96F"

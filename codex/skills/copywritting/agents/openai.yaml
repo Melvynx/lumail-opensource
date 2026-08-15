@@ -1,0 +1,7 @@
+interface:
+  display_name: "Copywriting"
+  short_description: "Write high-converting copy, emails, and sales pages"
+  default_prompt: "Use $copywritting to rewrite this email so it converts."
+  icon_small: "./assets/codex-icon.svg"
+  icon_large: "./assets/codex-icon.svg"
+  brand_color: "#820EF8"

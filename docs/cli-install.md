@@ -79,13 +79,13 @@ in — detect which directories exist and install into each one that applies:
 ```bash
 curl -fsSL --create-dirs \
   -o ~/.claude/skills/lumail/SKILL.md \
-  https://raw.githubusercontent.com/Melvynx/lumail-opensource/main/skills/lumail/SKILL.md
+  https://raw.githubusercontent.com/Melvynx/lumail-skills/main/skills/lumail/SKILL.md
 ```
 
 If the `skills` CLI is available, it does the same thing in one command:
 
 ```bash
-pnpm dlx skills add Melvynx/lumail-opensource -g
+pnpm dlx skills add Melvynx/lumail-skills -g
 ```
 
 If the user has the Lumail **plugin** installed (Claude Code or Codex), the

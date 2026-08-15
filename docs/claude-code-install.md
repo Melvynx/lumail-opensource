@@ -2,7 +2,7 @@
 
 This installs the Lumail plugin from the public marketplace repository:
 
-https://github.com/Melvynx/lumail-opensource.git
+https://github.com/Melvynx/lumail-skills.git
 
 ## Agent execution contract
 
@@ -47,7 +47,7 @@ app before installing anything new. On macOS it lives under
 everywhere below.
 
 ```bash
-claude plugin marketplace add https://github.com/Melvynx/lumail-opensource.git
+claude plugin marketplace add https://github.com/Melvynx/lumail-skills.git
 claude plugin install lumail@lumail
 ```
 

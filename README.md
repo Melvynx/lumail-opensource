@@ -1,8 +1,8 @@
-# Lumail Agent Plugin
+# Lumail Agent Skills and Plugins
 
-Connect [Lumail](https://lumail.io) to Claude Code and Codex. Read your
-subscribers, campaigns, workflows and analytics, draft campaigns, and build
-workflow sequences from the session where you already work.
+Install Lumail's agent skills or connect [Lumail](https://lumail.io) to Claude
+Code and Codex. The repository includes reusable marketing and copywriting
+skills alongside the Lumail CLI and OAuth MCP plugin skills.
 
 Authentication is browser OAuth. **There is no API token to create, paste, or
 store.**
@@ -30,7 +30,7 @@ Read lumail.io/cli and set up the Lumail CLI for me.
 Prefer to run it yourself:
 
 ```bash
-claude plugin marketplace add https://github.com/Melvynx/lumail-opensource.git
+claude plugin marketplace add https://github.com/Melvynx/lumail-skills.git
 claude plugin install lumail@lumail
 claude mcp login plugin:lumail:lumail
 ```
@@ -40,18 +40,20 @@ Full guides: [docs/claude-code-install.md](./docs/claude-code-install.md) ·
 
 ## What is in here
 
-| Path                              | What it is                                            |
-| --------------------------------- | ----------------------------------------------------- |
-| `.claude-plugin/marketplace.json` | Claude Code marketplace descriptor                    |
-| `claude/.claude-plugin/plugin.json` | Claude Code plugin, declares the MCP server inline   |
-| `codex/.codex-plugin/plugin.json` | Codex plugin metadata                                 |
-| `codex/.mcp.json`                 | Codex MCP server configuration                        |
-| `.agents/plugins/marketplace.json` | Codex marketplace descriptor                         |
-| `skills/lumail/`                  | The `lumail` CLI skill (`npx lumail`) — canonical copy |
-| `skills/lumail-plugin/`           | How to drive the MCP connection, its limits and errors |
+| Path                                | What it is                                                     |
+| ----------------------------------- | -------------------------------------------------------------- |
+| `.claude-plugin/marketplace.json`   | Claude Code marketplace descriptor                             |
+| `claude/.claude-plugin/plugin.json` | Claude Code plugin, declares the MCP server inline             |
+| `codex/.codex-plugin/plugin.json`   | Codex plugin metadata                                          |
+| `codex/.mcp.json`                   | Codex MCP server configuration                                 |
+| `.agents/plugins/marketplace.json`  | Codex marketplace descriptor                                   |
+| `skills/lumail/`                    | The `lumail` CLI skill (`npx lumail`) — canonical copy         |
+| `skills/lumail-plugin/`             | How to drive the MCP connection, its limits and errors         |
+| `skills/marketing/`                 | Marketing strategy, positioning, offers, funnels, and launches |
+| `skills/copywritting/`              | Conversion copy for emails, pages, ads, scripts, and CTAs      |
 
 `claude/skills` and `codex/skills` are real copies of `skills/` (symlinks break
-on Windows checkouts), so both hosts ship the same two skills. Edit the
+on Windows checkouts), so both hosts ship the same skills. Edit the
 top-level `skills/` first, then sync the copies.
 
 ## How the connection works
